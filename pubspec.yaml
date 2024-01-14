@@ -1,0 +1,39 @@
+name: tubes_posyandu
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  firebase_analytics: ^10.7.4
+  cloud_firestore: ^4.13.6
+  firebase_storage: ^11.5.6
+  fluttertoast: ^8.2.4
+  font_awesome_flutter: ^10.6.0
+  google_sign_in: ^6.1.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+      - assets/bg2.jpg
+      - assets/POSYANDU.png
+      - assets/daftarbalita.png
+      - assets/8.png
+      - assets/iconblt.png
+      - assets/iconbumil.png
+      - assets/catatan.png
+      - assets/catatan2.png
+      - assets/pendaftaran2.png
+      - assets/timbangan.png
